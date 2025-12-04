@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mountain View Haven | Contact</title>
+        <meta name="author" content="Malia Sako">
+        <!-- change content -->
+        <meta name="description" content="Contact us today to plan your visit at our cozy resort near the beautiful Swiss Mountains.">
+        <!-- favicon -->
+        <link rel="icon" href="images/favicon.ico">
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="topnav">
+                <h1><a href="index.html">Mountain View Haven</a></h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Accommodations</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="heroimg">
+                <img src="images/swiss-valley.jpg" alt="Beautiful green swiss valley below snowy mountains" width="1440" height="560">
+            </div>
+        </header>
+        <main>
+            <section class="contacttext">
+                <h2>Contact Us</h2>
+                <p>
+                    Please reach out to us with any questions or concerns. 
+                    We are happy to help you plan your dream vacation with us!
+                    Required fields marked with a <span class="required">*</span>.
+                </p>
+                <img src="images/swiss-sunset.jpg" alt="Lake below a mountain during sunset" width="710" height="270">
+            </section>
+            <div class="formstyling">
+                <form class="parentcontact" action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                    <div class="infocontact">
+                        <label for="fullname">Full name<span class="required">*</span></label>
+                        <input type="text" id="fullname" name="fullname" required>
+
+                        <label for="email">Email<span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone<span class="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="preferredcontact">
+                        <fieldset>
+                            <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                            
+                            <input type="radio" name="contact" value="Email" id="Email" required>
+                            <label for="Email">Email</label>
+                            
+                            <input type="radio" name="contact" value="Phone" id="Phone" required>
+                            <label for="Phone">Phone</label>
+                        </fieldset>
+                    
+                        <label for="Comments">Comments<span class="required">*</span></label>
+                        <textarea id="Comments" name="Comments" rows="3" cols="40" aria-label="textbox" required></textarea>
+
+                        <input type="submit" value="Submit Form">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright ©2023 - Mountain View Haven</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
